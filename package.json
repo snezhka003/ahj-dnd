@@ -1,0 +1,43 @@
+{
+  "name": "ahj-dnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint .",
+    "test": "jest --coverage",
+    "show:dist": "live-server dist"
+  },
+  "repository": "https://github.com/snezhka003/ahj-dnd",
+  "author": "snezhka003",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.4.1",
+    "jest-babel": "^1.0.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "5.75.0",
+    "webpack-cli": "4",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "core-js": "3"
+  }
+}
