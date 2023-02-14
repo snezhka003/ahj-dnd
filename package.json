@@ -9,7 +9,6 @@
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
-    "test": "jest --coverage",
     "show:dist": "live-server dist"
   },
   "repository": "https://github.com/snezhka003/ahj-dnd",
